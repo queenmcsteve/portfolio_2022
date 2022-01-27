@@ -1,0 +1,23 @@
+#bodyFrame {
+  padding: 5px;
+}
+
+#collapse {
+  min-width: 80%;
+  max-width: 80%;
+}
+
+img {
+  float: left;
+  margin: 5px;
+}
+
+#aboutMe {
+  display: inline;
+  text-align: justify;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
