@@ -33,7 +33,7 @@ img {
   float: left;
   margin: 10px;
   padding: 5px;
-  border: 5px solid black;
+  border: 5px solid #61c9a8;
   /* max-width: 800px; */
 }
 
@@ -49,6 +49,7 @@ img {
 
 #aboutMeHeader {
   background-color: #ada8b6;
+  color: #4c3b4d;
 }
 
 #projectsHeader {
@@ -58,6 +59,15 @@ img {
 #contactHeader {
   background-color: #4c3b4d;
 }
+
+#contactTitle {
+  color: #61c9a8;
+}
+
+#projectTitle {
+  color: #a53860;
+}
+
 .flexbox {
   display: flex;
   justify-content: center;
