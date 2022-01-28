@@ -64,3 +64,30 @@ img {
   background-color: var(--backGr);
   color: var(--textcolor);
 }
+
+@media screen and (min-width: 992px) {
+  #collapse {
+    min-width: 60%;
+    max-width: 60%;
+  }
+  img {
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border: 5px solid black;
+    /* max-width: 400px; */
+  }
+  #image-wrapper {
+    width: 600px;
+  }
+  .project1 {
+    justify-content: center;
+    /* height: 999px; */
+  }
+  #aboutMe {
+    margin: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    height: 250px;
+  }
+}
