@@ -44,15 +44,15 @@ img {
 }
 
 #aboutMeHeader {
-  background-color: #a2e8dd;
+  background-color: #ada8b6;
 }
 
 #projectsHeader {
-  background-color: #779cab;
+  background-color: #ffeedb;
 }
 
 #contactHeader {
-  background-color: #627c85;
+  background-color: #4c3b4d;
 }
 .flexbox {
   display: flex;
