@@ -2,20 +2,31 @@
   padding: 5px;
 } */
 :root {
-  --backGr: #ffbe29;
-  --textstyle: "Lobster", cursive;
+  --backGr: #1d1e18;
+  --textstyle: "Raleway", cursive;
   --textsize: 1.2em;
-  --textcolor: #8d153a;
+  --textcolor: #f6f7eb;
+}
+
+* {
+  font-family: var(--textstyle);
 }
 
 .nav-wrapper {
   background-color: var(--backGr);
   color: var(--textcolor);
 }
+nav .brand-logo {
+  color: var(--textcolor);
+}
 
 #collapse {
   min-width: 80%;
   max-width: 80%;
+}
+
+.collapsible-body {
+  color: #1d1e18;
 }
 
 img {
@@ -32,6 +43,17 @@ img {
   text-align: justify;
 }
 
+#aboutMeHeader {
+  background-color: #a2e8dd;
+}
+
+#projectsHeader {
+  background-color: #779cab;
+}
+
+#contactHeader {
+  background-color: #627c85;
+}
 .flexbox {
   display: flex;
   justify-content: center;
@@ -40,4 +62,5 @@ img {
 .page-footer {
   padding-bottom: 5px;
   background-color: var(--backGr);
+  color: var(--textcolor);
 }

@@ -10,6 +10,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <!--custom-style css-->
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
@@ -17,17 +21,12 @@
     <nav>
       <div class="nav-wrapper">
         <a href="#" class="brand-logo">Niko de Silva</a>
-        <!-- <ul id="nav-mobile" class="right">
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contacts</a></li>
-        </ul> -->
       </div>
     </nav>
     <div id="bodyFrame" class="flexbox">
       <ul class="collapsible popout" id="collapse">
         <li>
-          <div class="collapsible-header">About Me</div>
+          <div class="collapsible-header" id="aboutMeHeader">About Me</div>
           <div class="collapsible-body">
             <img
               id="avatar"
@@ -51,7 +50,7 @@
           </div>
         </li>
         <li>
-          <div class="collapsible-header">Projects</div>
+          <div class="collapsible-header" id="projectsHeader">Projects</div>
           <div class="collapsible-body">
             <div class="projects" >
                 <div class="row">
@@ -115,7 +114,7 @@
           </div>
         </li>
         <li>
-          <div class="collapsible-header">Contact</div>
+          <div class="collapsible-header" id="contactHeader">Contact</div>
           <div class="collapsible-body">
             <p>
                 <table>
