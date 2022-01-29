@@ -1,34 +1,53 @@
 # Portofolio
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Description:
+
 A simple portfolio website.
 
 ## Table of contents:
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Contact](#contact)
-* [License](#license)
 
-# Installation Instructions
-No installation.
+- [Screenshots](#screenshots)
+- [Demo](#demo)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
 
-# Usage
-No info.
+# Screenshots
+
+Landing page
+![screenshot](./assets/images/home.jpg)
+
+About Me
+![screenshot](./assets/images/about.jpg)
+
+Projects
+![screenshot](./assets/images/projects.jpg)
+
+Contact
+![screenshot](./assets/images/contact.jpg)
+
+# Demo
+
+See the deployed page [here]().
+
+# Technologies
+
+This page uses HTML, CSS, and [Materialize](https://materializecss.com/).
 
 # Contributing
+
 Not accepting contributions.
 
-# Tests
-No tests.
-
 # Contact
+
 If you have any questions you can reach me via:
+
 - Github: [queenmcsteve](https://github.com/queenmcsteve)
 - Email: [queen.mcsteve.666@gmail.com](mailto:queen.mcsteve.666@gmail.com)
 
 # License
-[This project is licensed under the terms of the MIT license.](https://opensource.org/licenses/MIT)
 
+[This project is licensed under the terms of the MIT license.](https://opensource.org/licenses/MIT)
